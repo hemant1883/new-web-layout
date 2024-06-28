@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: rgb(26, 44, 65);
+}
+
+.nav-bar{
+    display: flex;
+margin-top: 1%;
+align-items: center;
+justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+    color: rgb(236, 172, 87);
+    margin-left: 4%;
+}
+#c{
+font-size: 100px;
+
+}
+#sep{
+    display: flex;
+    flex-direction: column;
+    margin-top:40px;
+}
+#creative{
+    color: azure;
+}
+
+#options{
+    display:flex;
+column-gap: 2.4rem;
+margin-right: 2%;
+color: aliceblue;
+height: 100px;
+align-items: center;
+}
+
+#search{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border: 8px solid rgba(183, 151, 46, 0.795);
+background-color: yellow;
+    border-radius: 50%;
+   color: black;
+}
+
+.option:hover{
+   text-decoration: underline;
+   text-underline-offset: 15px; 
+   text-decoration-color: rgb(192, 160, 31);
+   text-shadow: 2px 2px rgb(192, 160, 31);
+   cursor: pointer;
+}
+#search:hover{
+    cursor: pointer;
+}
+.main{
+    display: flex;
+   justify-content: space-evenly;
+   margin-top: 5%;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+#heading1{
+    font-size: 60px;
+   
+color:rgb(236, 172, 87);
+}
+
+#heading2{
+    font-size: 60px;
+    
+color: antiquewhite;
+margin-bottom: 10px;
+}
+
+.main p{
+    color: aliceblue;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#input{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 40px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+#Send{
+    height: 40px;
+    width: 18%;
+    background-color:rgb(192, 160, 31) ;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+#Send:hover{
+    cursor: pointer;
+}
+
+#photo{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color:bisque ;
+}
+#photo img{
+    height: 80%;
+}
