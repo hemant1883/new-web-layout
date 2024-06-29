@@ -132,3 +132,107 @@ input{
 #photo img{
     height: 80%;
 }
+
+@media screen and (max-width: 850px) {
+   #options{
+    font-size: 18px;
+   }
+   #FAQ{
+    display: none;
+  }
+  #logo{
+    font-size: 18px;
+   }
+   #c{
+    font-size: 90px;
+   }
+   #photo{
+    margin-top: 4%;
+}
+  }
+
+@media screen and (max-width: 700px) {
+   
+  body{
+    background-color: rgb(32, 54, 93);
+  }
+ 
+  #blog{
+    display: none;
+  }
+  #options{
+    column-gap: 1.2rem;
+  }
+}
+@media screen and (max-width: 540px) {
+   #options{
+    font-size: 15px;
+   }
+   #services i{
+    display: none;
+   }
+   #logo{
+    font-size: 15px;
+   }
+   #c{
+    font-size: 80px;
+   }
+  }
+   
+  @media screen and (max-width: 1100px) {
+   #photo{
+    height: 350px;
+    width: 300px;
+   }
+   #photo img{
+    height: 230px;
+    width: 200px;
+   }
+   .heading{
+    font-size: 40px;
+   }
+   }
+   @media screen and (max-width: 990px) {
+    #photo{
+     height: 300px;
+     width: 250px;
+    }
+    #photo img{
+     height: 200px;
+     width: 170px;
+    }
+    .heading{
+     font-size: 30px;
+    }
+    }
+    @media screen and (max-width: 690px) {
+        #photo{
+            margin-top: 4%;
+        }
+        #heading1{
+            font-size: 30px;
+        }
+        #heading2{
+            font-size: 30px;
+        }
+        #photo{
+            height: 200px;
+            width: 150px;
+           }
+           #photo img{
+            height: 150px;
+            width: 110px;
+           }
+           .main{
+            margin-top: 10%;
+           }
+           input{
+            width: 10rem;
+           }
+           #Send{
+        width: 5rem;
+        border-radius: 10px;
+           }
+
+        }
+
